@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="sorteiotimes.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Sorteio de Times</title>
+</head>
+<body>
+   
+    <div id="titulo"><h1>Sorteio de Times</h1></div>
+    <div id="divEquipe">
+        <label for="nJogador"><strong>Jogadores por time:</strong></label>
+        <select name="nJogador" id="nJogador">
+          <option value=5>5</option>
+          <option value=6>6</option>
+          <option value=7>7</option>
+        </select>
+    </div>
+    <div id="desc"><h2>Digite um nome de jogador por linha</h2></div>
+    <div id="divLista"><textarea id="editor" placeholder="Digite um nome por linha e depois clique em sortear."></textarea></div></br>
+    <div id="divButton"><button id="btnSortear" onclick="sorteio()">Sortear</button></div><br />
+    <h2><div id="divSorteio"></div></h2>
+    <script src="sorteiotimes.js"></script>
+</body>
+</html>

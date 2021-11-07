@@ -1,0 +1,77 @@
+#btnSortear {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+
+}
+
+#btnSortear:hover {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+
+
+
+#desc {
+    text-align: center;
+
+
+}
+
+#divButton {
+    text-align: center;
+
+}
+
+#divEquipe {
+    text-align: center;
+
+}
+
+#divLista {
+    text-align: center;
+
+
+}
+
+#divSorteio {
+    text-align: center;
+
+
+
+}
+
+#editor {
+    width:300px; 
+    height:300px;
+    text-align: center;
+ 
+}
+
+#nJogador {
+    text-align: center;
+    width: 70px;
+}
+
+
+#sortear {
+    text-align: center;
+    left: 50%;
+    margin: auto;
+
+}
+
+#titulo {
+    text-align: center;
+
+}
+
+
